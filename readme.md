@@ -1,3 +1,5 @@
+# INFLAÇÃO.JS
+
 A proposta desse projeto é criar um sistema que liste o salário mínimo e a inflação do IPCA entre 2010 e 2020. Além disso, a aplicação deve listar um comparativo do percentual de crescimento desses dois valores nesse mesmo período.
 
 conceitos aplicados:
@@ -69,3 +71,11 @@ crescimentoSalarial = (diferenca / 510) \* 100;
 crescimentoSalarial = 6.86%;
 
 ---
+
+# CONTADOR.JS
+
+Este projeto solita ao usuário o valor da prestão e em quantas vezes ele gostaria de parcelar. após informar a quantidade de parcelas o programa irá mostar a quantudade de parcelas e quanto que irá ficar.
+
+# DATE.JS
+
+Mostra como realizar as manupulações de datas.
