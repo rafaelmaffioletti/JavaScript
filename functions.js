@@ -46,11 +46,40 @@ function exibirMensagemFimDeJogo(statusJogo) {
   }
 }
 
+/* Filtrar funcionarios com mais de 30 anos */
+
+function verificaFuncionariosIdade(funcionario) {
+  return (funcionario.idade > 30)
+}
+
+function filtraFuncionariosIdade(funcionarios) {
+
+  let funcionariosFiltro = funcionarios.filter(verificaFuncionariosIdade);
+  return funcionariosFiltro;
+
+}
+
+function retornaNomesFuncionarios(funcionarios) {
+
+  let nomes = funcionarios.map(funcionario => funcionario.nome);
+  return nomes;
+}
+
+function imprimeNomesFuncionarios(arrayNomes) {
+  arrayNomes.forEach(nome => {
+    console.log(nome);
+  });
+}
+
+
 export {
   validarLetraDigitada,
   verificarJogoGanho,
   verificarLetraPresenteNaPalavra,
   jogadasRestantes,
   atualizarPalavraOculta,
-  exibirMensagemFimDeJogo
+  exibirMensagemFimDeJogo,
+  filtraFuncionariosIdade,
+  retornaNomesFuncionarios,
+  imprimeNomesFuncionarios
 };
