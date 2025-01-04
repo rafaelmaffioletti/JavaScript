@@ -1,5 +1,5 @@
 import entradaDados from "readline-sync";
-import listaDeFrutas from "./dados.js";
+import { listaDeFrutas } from "./dados.js";
 import {
   validarLetraDigitada,
   verificarJogoGanho,
