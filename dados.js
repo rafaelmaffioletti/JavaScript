@@ -8,4 +8,12 @@ const listaDeFrutas = [
   'Figo', 'Framboesa', 'Caqui', 'Cacau', 'Amora'
 ];
 
-export default listaDeFrutas;
+
+let funcionarios = [
+  { nome: 'Gustavo', idade: 25 },
+  { nome: 'Sophia', idade: 32 },
+  { nome: 'Mateus', idade: 28 },
+  { nome: 'Letícia', idade: 37 }
+];
+
+export { listaDeFrutas, funcionarios };
